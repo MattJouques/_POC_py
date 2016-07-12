@@ -1,7 +1,7 @@
 #
 #    POC - Database Connectivity
 #
-#    @author: Matt
+#    @author: Matt Jouques
 #
 
 # Configuration
