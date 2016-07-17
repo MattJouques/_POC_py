@@ -1,3 +1,4 @@
+#!/usr/bin/python
 #
 #    POC - Database Connectivity
 #
@@ -89,15 +90,7 @@ try:
         print "Error occurred: %s " % err                                       # Display the errors
     
     # Add multiple rows to table via a list
-    date = time.strftime('%Y-%m-%d %H:%M:%S')
-    data = [
-        (null, 'MAC', 'distrct 1', ''date''),
-        (null, 'PSE', 'distrct 2', ''date''),
-        (null, 'ZWE', 'distrct 3', ''date''),
-        (null, 'USA', 'distrct 4', ''date''),
-        (null, 'USA', 'distrct 5', ''date''),
-    ]
-    print data
+    
     
     # Update rows in table
     
